@@ -1,5 +1,4 @@
-package web.Service;
-
+package web.services;
 import org.springframework.stereotype.Component;
 import web.models.Car;
 import java.util.ArrayList;
@@ -8,7 +7,7 @@ import java.util.stream.Collectors;
 
 
 @Component
-public class CarDao {
+public class CarServicesImpl {
     private List<Car> cars;
 
     {
